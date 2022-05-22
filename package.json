@@ -1,6 +1,6 @@
 {
   "name": "@jacksonzhou52017/jupiter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "js项目模板",
   "author": "JacksonZhou",
   "license": "MIT",
@@ -26,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/GitHubJackson/jupiter"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

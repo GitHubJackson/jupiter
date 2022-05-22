@@ -2,7 +2,7 @@
 
 const program = require("commander");
 const chalk = require("chalk");
-const updateChk = require("../lib/update");
+const checkVersion = require("../lib/update");
 const initProject = require("../lib/init");
 
 // 获取版本号
@@ -13,7 +13,7 @@ program
   .command("upgrade")
   .description("Check the jupiter version.")
   .action(() => {
-    updateChk();
+    checkVersion();
   });
 
 program.on("--help", () => {
